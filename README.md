@@ -16,3 +16,7 @@ Analysis of bike share programs, in:
 * calc_print_stats.py
 * get_filters.py
 * load_data.py
+
+### Credits
+* Initially, forked from [Github Udacity](https://github.com/udacity/pdsnd_github)
+* Uses bikeshare data, from the Udacity project
