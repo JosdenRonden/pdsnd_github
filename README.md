@@ -20,3 +20,6 @@ Analysis of bike share programs, in:
 ### Credits
 * Initially, forked from [Github Udacity](https://github.com/udacity/pdsnd_github)
 * Uses bikeshare data, from the Udacity project
+
+### References
+* https://www.kaggle.com/marklvl/explanatory-data-analysis-on-bike-sharing-dataset
