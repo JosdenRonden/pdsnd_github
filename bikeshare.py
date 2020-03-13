@@ -10,34 +10,32 @@ def main():
     - loads the data
     - calculates and prints statistics
     """
-    
+
     CITY_DATA = {'chicago': 'chicago.csv',
                  'new york city': 'new_york_city.csv',
-                 'washington': 'washington.csv'} 
+                 'washington': 'washington.csv'}
 
     while True:
-        
+
         city, month, weekday = get_filters(CITY_DATA)
-    
-       
+
+
         df = load_data(city, month, weekday, CITY_DATA)
-    
+
         # calculate and print statistics:
         # pass city to take special case of Washington into account
-        # pas month, day for special case of all months or all weekdays 
+        # pas month, day for special case of all months or all weekdays
         calc_print_stats (df, city, month, weekday)
-        
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+
+        restart = input('\nWould you like to restart (Y/N)?\n')
+        if restart.lower() != 'Y':
             break
 
 if __name__ == '__main__':
-    
+
     start_time = time.time()
-    
-    main()  
-    
+
+    main()
+
     print("\nThis report took %s seconds in total." % (time.time() - start_time))
     print('-'*60)
-    
-    
