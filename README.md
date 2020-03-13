@@ -1,15 +1,18 @@
 ### Date created
-Include the date you created this project and README file.
+March 13, 2020 (Friday, 13th)
 
 ### Project Title
-Replace the Project Title
+**BIKE SHARE ANALYSIS**
 
 ### Description
-Describe what your project is about and what it does
+Analysis of bike share programs, in:
+
+1. Chicago
+1. New York City
+1. Washington
 
 ### Files used
-Include the files used
-
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+* bikeshare.py
+* calc_print_stats.py
+* get_filters.py
+* load_data.py
